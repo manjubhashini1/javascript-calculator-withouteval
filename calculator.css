@@ -1,0 +1,27 @@
+.calculator-container {
+  width: 60%;
+  margin: 0 auto; }
+  .calculator-container button {
+    width: 100%; }
+
+.display {
+  height: 150px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative; }
+  .display .display-1 {
+    color: lightgrey;
+    font-size: 20px; }
+  .display .display-2,
+  .display .temp-result {
+    color: lightgray;
+    font-size: 35px; }
+  .display .display-1,
+  .display .display-2 {
+    text-align: right;
+    margin-right: 20px; }
+  .display .temp-result {
+    text-align: left;
+    margin-left: 20px; }
